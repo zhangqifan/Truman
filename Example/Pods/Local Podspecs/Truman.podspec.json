@@ -1,0 +1,22 @@
+{
+  "name": "Truman",
+  "version": "0.1.0",
+  "summary": "A short description of Truman.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangqifan/Truman",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangqifan": "qifan.zhang@chipmuck.cc"
+  },
+  "source": {
+    "git": "https://github.com/zhangqifan/Truman.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Truman/Classes/**/*"
+}

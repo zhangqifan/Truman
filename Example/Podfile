@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Truman_Example' do
+  pod 'Truman', :path => '../'
+
+  target 'Truman_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end

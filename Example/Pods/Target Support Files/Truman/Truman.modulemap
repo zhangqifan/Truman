@@ -1,0 +1,6 @@
+framework module Truman {
+  umbrella header "Truman-umbrella.h"
+
+  export *
+  module * { export * }
+}

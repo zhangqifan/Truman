@@ -1,0 +1,6 @@
+framework module Pods_Truman_Tests {
+  umbrella header "Pods-Truman_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
