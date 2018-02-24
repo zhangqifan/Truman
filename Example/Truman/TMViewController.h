@@ -6,7 +6,7 @@
 //  Copyright (c) 2018 zhangqifan. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface TMViewController : UIViewController
 

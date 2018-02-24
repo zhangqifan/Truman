@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "TMCrew.h"
+#import "TMCrewWidget.h"
+#import "TMMotion.h"
+#import "Truman.h"
 
 FOUNDATION_EXPORT double TrumanVersionNumber;
 FOUNDATION_EXPORT const unsigned char TrumanVersionString[];

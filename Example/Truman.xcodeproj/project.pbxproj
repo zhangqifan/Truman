@@ -21,7 +21,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A171AD91161A9F2ACBC561DA /* Pods_Truman_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697372F25EF9BA144381E11C /* Pods_Truman_Example.framework */; };
 		C2B8259E35F9E5C1CB57654F /* Pods_Truman_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C202A891307781B8737AF92 /* Pods_Truman_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -37,10 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0605AE073BE3EB331504FB7C /* Truman.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Truman.podspec; path = ../Truman.podspec; sourceTree = "<group>"; };
-		2C4581FE04C3B6854CCF907C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0605AE073BE3EB331504FB7C /* Truman.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Truman.podspec; path = ../Truman.podspec; sourceTree = "<group>"; };
+		2C4581FE04C3B6854CCF907C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3F137380B704FEAE78896F07 /* Pods-Truman_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truman_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Truman_Example/Pods-Truman_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		418051CE477EA4E157556B2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		418051CE477EA4E157556B2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Truman_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Truman_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +61,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		697372F25EF9BA144381E11C /* Pods_Truman_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Truman_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C202A891307781B8737AF92 /* Pods_Truman_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Truman_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD8FA7D7FFD9E3BF7B0915C /* Pods-Truman_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truman_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Truman_Tests/Pods-Truman_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ACA63EF6F876A7BCD966E40B /* Pods-Truman_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truman_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Truman_Example/Pods-Truman_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,7 +132,6 @@
 			children = (
 				6003F59C195388D20070C39A /* TMAppDelegate.h */,
 				6003F59D195388D20070C39A /* TMAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* TMViewController.h */,
 				6003F5A6195388D20070C39A /* TMViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -250,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhangqifan;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = N8Y3LCHZY9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -279,7 +279,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -536,12 +535,14 @@
 			baseConfigurationReference = 3F137380B704FEAE78896F07 /* Pods-Truman_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N8Y3LCHZY9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Truman/Truman-Prefix.pch";
 				INFOPLIST_FILE = "Truman/Truman-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -551,12 +552,14 @@
 			baseConfigurationReference = ACA63EF6F876A7BCD966E40B /* Pods-Truman_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N8Y3LCHZY9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Truman/Truman-Prefix.pch";
 				INFOPLIST_FILE = "Truman/Truman-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

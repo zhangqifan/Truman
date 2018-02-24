@@ -7,6 +7,7 @@
 //
 
 #import "TMViewController.h"
+#import "UIViewController+Swizz.h"
 
 @interface TMViewController ()
 

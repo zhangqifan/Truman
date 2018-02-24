@@ -7,11 +7,20 @@
 //
 
 #import "TMAppDelegate.h"
+#import "TMViewController.h"
+#import <Truman/Truman.h>
 
 @implementation TMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [TMCrew takeAction];
+    
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[TMViewController new]];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }
